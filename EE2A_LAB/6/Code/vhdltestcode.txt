@@ -1,0 +1,166 @@
+-- Vhdl test bench created from schematic C:\Users\super\Documents\gaga\finalattempt\finalatp.sch - Mon Mar 12 01:47:54 2018
+--
+-- Notes: 
+-- 1) This testbench template has been automatically generated using types
+-- std_logic and std_logic_vector for the ports of the unit under test.
+-- Xilinx recommends that these types always be used for the top-level
+-- I/O of a design in order to guarantee that the testbench will bind
+-- correctly to the timing (post-route) simulation model.
+-- 2) To use this template as your testbench, change the filename to any
+-- name of your choice with the extension .vhd, and use the "Source->Add"
+-- menu in Project Navigator to import the testbench. Then
+-- edit the user defined section below, adding code to generate the 
+-- stimulus for your design.
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE ieee.numeric_std.ALL;
+LIBRARY UNISIM;
+USE UNISIM.Vcomponents.ALL;
+USE IEEE.STD_LOGIC_TEXTIO.ALL;
+
+LIBRARY std;
+USE std.textio.all;
+
+ENTITY finalatp_finalatp_sch_tb IS
+END finalatp_finalatp_sch_tb;
+ARCHITECTURE behavioral OF finalatp_finalatp_sch_tb IS 
+
+   COMPONENT finalatp
+   PORT( sw	:	IN	STD_LOGIC_VECTOR (7 DOWNTO 0); 
+          btn	:	IN	STD_LOGIC_VECTOR (4 DOWNTO 0); 
+          led	:	OUT	STD_LOGIC_VECTOR (7 DOWNTO 0));
+   END COMPONENT;
+
+   SIGNAL sw	:	STD_LOGIC_VECTOR (7 DOWNTO 0);
+   SIGNAL btn	:	STD_LOGIC_VECTOR (4 DOWNTO 0);
+   SIGNAL led	:	STD_LOGIC_VECTOR (7 DOWNTO 0);
+
+BEGIN
+
+   UUT: finalatp PORT MAP(
+		sw => sw, 
+		btn => btn, 
+		led => led
+   );
+
+--- *** Test Bench - User Defined Section ***---
+   tb : PROCESS
+	VARIABLE TextLine : LINE;
+	
+   BEGIN
+	
+	write(TextLine,"Starting Simulation");
+	writeline(output,TextLine);
+	writeline(output,TextLine);
+	write(TextLine,"Test normal state transitions");
+	writeline(output,TextLine);
+	
+	sw(7) <= '0';--0
+	sw(6) <= '0';--1
+	sw(5) <= '0';--2
+	sw(4) <= '0';--3
+	sw(3) <= '0';--4
+	sw(2) <= '0';--5
+	sw(1) <= '0';--6
+	sw(0) <= '0';--7
+	btn(2) <= '0';--8
+	btn(0) <= '0';--9
+	btn(3) <= '0';--R
+	btn(1) <= '0';--Dr
+	wait for 20ns;
+	btn(3) <= '1';--press reset and hold
+	wait for 20ns;
+	btn(1) <= '1';--press Dr and hold
+	
+	write(TextLine,"Forced to State A, LEDs = ");
+	write(TextLine,Led(0));
+	write(TextLine,Led(1));
+	write(TextLine,Led(2));
+	write(TextLine," Z = ");
+	write(TextLine,Led(4));
+	writeline(output,TextLine);
+	
+	wait for 20ns;
+	sw(5) <= '1';--press key2
+	wait for 20ns;
+	sw(5) <= '0';
+	
+	write(TextLine,"Clocked to State B, LEDs = ");
+	write(TextLine,Led(0));
+	write(TextLine,Led(1));
+	write(TextLine,Led(2));
+	write(TextLine," Z = ");
+	write(TextLine,Led(4));
+	writeline(output,TextLine);
+	
+	wait for 20ns;
+	sw(3) <= '1';--press key4
+	wait for 20ns;
+	sw(3) <= '0';
+	
+	write(TextLine,"Clocked to State C, LEDs = ");
+	write(TextLine,Led(0));
+	write(TextLine,Led(1));
+	write(TextLine,Led(2));
+	write(TextLine," Z = ");
+	write(TextLine,Led(4));
+	writeline(output,TextLine);
+	
+	wait for 20ns;
+	sw(1) <= '1';--press key6
+	wait for 20ns;
+	sw(1) <= '0';
+	
+	write(TextLine,"Clocked to State D, LEDs = ");
+	write(TextLine,Led(0));
+	write(TextLine,Led(1));
+	write(TextLine,Led(2));
+	write(TextLine," Z = ");
+	write(TextLine,Led(4));
+	writeline(output,TextLine);
+	
+	wait for 20ns;
+	sw(0) <= '1';--press key7
+	wait for 20ns;
+	sw(0) <= '0';
+	
+	write(TextLine,"Clocked to State E, LEDs = ");
+	write(TextLine,Led(0));
+	write(TextLine,Led(1));
+	write(TextLine,Led(2));
+	write(TextLine," Z = ");
+	write(TextLine,Led(4));
+	writeline(output,TextLine);
+	
+	wait for 20ns;
+	btn(0) <= '1';--press key9
+	wait for 20ns;
+	btn(0) <= '0';
+	
+	write(TextLine,"Clocked to State F, LEDs = ");
+	write(TextLine,Led(0));
+	write(TextLine,Led(1));
+	write(TextLine,Led(2));
+	write(TextLine," Z = ");
+	write(TextLine,Led(4));
+	writeline(output,TextLine);
+	
+	wait for 20ns;
+	btn(1) <= '0';--let go of Dr
+	wait for 20ns;
+	btn(1) <= '1';--press Dr
+	
+	write(TextLine,"Forced to State A, LEDs = ");
+	write(TextLine,Led(0));
+	write(TextLine,Led(1));
+	write(TextLine,Led(2));
+	write(TextLine," Z = ");
+	write(TextLine,Led(4));
+	writeline(output,TextLine);
+
+      WAIT; -- will wait forever
+   END PROCESS;
+-- *** End Test Bench - User Defined Section ***
+
+END;

@@ -1,0 +1,2493 @@
+--**Test fraudulent state A transitions**--
+write(TextLine,"Test fraudulent state A*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+btn(3) <= '1';
+wait for 20ns;
+btn(1) <= '1';
+write(TextLine,"Forced to State A*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(7) <= '1';
+write(TextLine,"Input fault sw(7), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state A*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+btn(3) <= '1';
+wait for 20ns;
+btn(1) <= '1';
+write(TextLine,"Forced to State A*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(6) <= '1';
+write(TextLine,"Input fault sw(6), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state A*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+btn(3) <= '1';
+wait for 20ns;
+btn(1) <= '1';
+write(TextLine,"Forced to State A*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(4) <= '1';
+write(TextLine,"Input fault sw(4), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state A*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+btn(3) <= '1';
+wait for 20ns;
+btn(1) <= '1';
+write(TextLine,"Forced to State A*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(3) <= '1';
+write(TextLine,"Input fault sw(3), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state A*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+btn(3) <= '1';
+wait for 20ns;
+btn(1) <= '1';
+write(TextLine,"Forced to State A*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(2) <= '1';
+write(TextLine,"Input fault sw(2), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state A*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+btn(3) <= '1';
+wait for 20ns;
+btn(1) <= '1';
+write(TextLine,"Forced to State A*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(1) <= '1';
+write(TextLine,"Input fault sw(1), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state A*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+btn(3) <= '1';
+wait for 20ns;
+btn(1) <= '1';
+write(TextLine,"Forced to State A*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(0) <= '1';
+write(TextLine,"Input fault sw(0), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state A*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+btn(3) <= '1';
+wait for 20ns;
+btn(1) <= '1';
+write(TextLine,"Forced to State A*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+btn(2) <= '1';
+write(TextLine,"Input fault btn(2), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state A*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+btn(3) <= '1';
+wait for 20ns;
+btn(1) <= '1';
+write(TextLine,"Forced to State A*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+btn(0) <= '1';
+write(TextLine,"Input fault btn(0), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state A*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+btn(3) <= '1';
+wait for 20ns;
+btn(1) <= '1';
+write(TextLine,"Forced to State A*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+btn(3) <= '1';
+write(TextLine,"Input fault btn(3), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state A*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+btn(3) <= '1';
+wait for 20ns;
+btn(1) <= '1';
+write(TextLine,"Forced to State A*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+btn(1) <= '1';
+write(TextLine,"Input fault btn(1), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+--**Test fraudulent state B transitions**--
+write(TextLine,"Test fraudulent state B*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+write(TextLine,"Forced to State B*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(7) <= '1';
+write(TextLine,"Input fault sw(7), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state B*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+write(TextLine,"Forced to State B*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(6) <= '1';
+write(TextLine,"Input fault sw(6), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state B*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+write(TextLine,"Forced to State B*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(5) <= '1';
+write(TextLine,"Input fault sw(5), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state B*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+write(TextLine,"Forced to State B*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(4) <= '1';
+write(TextLine,"Input fault sw(4), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state B*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+write(TextLine,"Forced to State B*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(2) <= '1';
+write(TextLine,"Input fault sw(2), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state B*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+write(TextLine,"Forced to State B*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(1) <= '1';
+write(TextLine,"Input fault sw(1), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state B*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+write(TextLine,"Forced to State B*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(0) <= '1';
+write(TextLine,"Input fault sw(0), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state B*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+write(TextLine,"Forced to State B*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+btn(2) <= '1';
+write(TextLine,"Input fault btn(2), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state B*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+write(TextLine,"Forced to State B*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+btn(0) <= '1';
+write(TextLine,"Input fault btn(0), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state B*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+write(TextLine,"Forced to State B*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+btn(3) <= '1';
+write(TextLine,"Input fault btn(3), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state B*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+write(TextLine,"Forced to State B*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+btn(1) <= '1';
+write(TextLine,"Input fault btn(1), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+--**Test fraudulent state C transitions**--
+write(TextLine,"Test fraudulent state C*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+write(TextLine,"Forced to State C*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(7) <= '1';
+write(TextLine,"Input fault sw(7), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state C*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+write(TextLine,"Forced to State C*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(6) <= '1';
+write(TextLine,"Input fault sw(6), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state C*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+write(TextLine,"Forced to State C*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(5) <= '1';
+write(TextLine,"Input fault sw(5), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state C*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+write(TextLine,"Forced to State C*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(4) <= '1';
+write(TextLine,"Input fault sw(4), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state C*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+write(TextLine,"Forced to State C*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(3) <= '1';
+write(TextLine,"Input fault sw(3), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state C*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+write(TextLine,"Forced to State C*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(2) <= '1';
+write(TextLine,"Input fault sw(2), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state C*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+write(TextLine,"Forced to State C*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(0) <= '1';
+write(TextLine,"Input fault sw(0), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state C*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+write(TextLine,"Forced to State C*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+btn(2) <= '1';
+write(TextLine,"Input fault btn(2), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state C*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+write(TextLine,"Forced to State C*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+btn(0) <= '1';
+write(TextLine,"Input fault btn(0), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state C*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+write(TextLine,"Forced to State C*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+btn(3) <= '1';
+write(TextLine,"Input fault btn(3), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state C*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+write(TextLine,"Forced to State C*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+btn(1) <= '1';
+write(TextLine,"Input fault btn(1), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+--**Test fraudulent state D transitions**--
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+write(TextLine,"Forced to State D*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(7) <= '1';
+write(TextLine,"Input fault sw(7), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+write(TextLine,"Forced to State D*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(6) <= '1';
+write(TextLine,"Input fault sw(6), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+write(TextLine,"Forced to State D*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(5) <= '1';
+write(TextLine,"Input fault sw(5), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+write(TextLine,"Forced to State D*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(4) <= '1';
+write(TextLine,"Input fault sw(4), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+write(TextLine,"Forced to State D*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(3) <= '1';
+write(TextLine,"Input fault sw(3), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+write(TextLine,"Forced to State D*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(2) <= '1';
+write(TextLine,"Input fault sw(2), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+write(TextLine,"Forced to State D*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(1) <= '1';
+write(TextLine,"Input fault sw(1), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+write(TextLine,"Forced to State D*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+btn(2) <= '1';
+write(TextLine,"Input fault btn(2), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+write(TextLine,"Forced to State D*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+btn(0) <= '1';
+write(TextLine,"Input fault btn(0), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+write(TextLine,"Forced to State D*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+btn(3) <= '1';
+write(TextLine,"Input fault btn(3), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+write(TextLine,"Forced to State D*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+btn(1) <= '1';
+write(TextLine,"Input fault btn(1), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+--**Test fraudulent state E transitions**--
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+wait for 20ns;
+sw(0) <= '1';
+write(TextLine,"Forced to State E*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(7) <= '1';
+write(TextLine,"Input fault sw(7), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+wait for 20ns;
+sw(0) <= '1';
+write(TextLine,"Forced to State E*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(6) <= '1';
+write(TextLine,"Input fault sw(6), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+wait for 20ns;
+sw(0) <= '1';
+write(TextLine,"Forced to State E*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(5) <= '1';
+write(TextLine,"Input fault sw(5), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+wait for 20ns;
+sw(0) <= '1';
+write(TextLine,"Forced to State E*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(4) <= '1';
+write(TextLine,"Input fault sw(4), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+wait for 20ns;
+sw(0) <= '1';
+write(TextLine,"Forced to State E*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(3) <= '1';
+write(TextLine,"Input fault sw(3), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+wait for 20ns;
+sw(0) <= '1';
+write(TextLine,"Forced to State E*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(2) <= '1';
+write(TextLine,"Input fault sw(2), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+wait for 20ns;
+sw(0) <= '1';
+write(TextLine,"Forced to State E*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(1) <= '1';
+write(TextLine,"Input fault sw(1), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+wait for 20ns;
+sw(0) <= '1';
+write(TextLine,"Forced to State E*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(0) <= '1';
+write(TextLine,"Input fault sw(0), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+wait for 20ns;
+sw(0) <= '1';
+write(TextLine,"Forced to State E*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+btn(2) <= '1';
+write(TextLine,"Input fault btn(2), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+wait for 20ns;
+sw(0) <= '1';
+write(TextLine,"Forced to State E*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+btn(3) <= '1';
+write(TextLine,"Input fault btn(3), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+wait for 20ns;
+sw(0) <= '1';
+write(TextLine,"Forced to State E*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+btn(1) <= '1';
+write(TextLine,"Input fault btn(1), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+--**Test fraudulent state F transitions**--
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+wait for 20ns;
+sw(0) <= '1';
+wait for 20ns;
+btn(0) <= '1';
+write(TextLine,"Forced to State F*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(7) <= '1';
+write(TextLine,"Input fault sw(7), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+wait for 20ns;
+sw(0) <= '1';
+wait for 20ns;
+btn(0) <= '1';
+write(TextLine,"Forced to State F*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(6) <= '1';
+write(TextLine,"Input fault sw(6), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+wait for 20ns;
+sw(0) <= '1';
+wait for 20ns;
+btn(0) <= '1';
+write(TextLine,"Forced to State F*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(5) <= '1';
+write(TextLine,"Input fault sw(5), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+wait for 20ns;
+sw(0) <= '1';
+wait for 20ns;
+btn(0) <= '1';
+write(TextLine,"Forced to State F*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(4) <= '1';
+write(TextLine,"Input fault sw(4), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+wait for 20ns;
+sw(0) <= '1';
+wait for 20ns;
+btn(0) <= '1';
+write(TextLine,"Forced to State F*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(3) <= '1';
+write(TextLine,"Input fault sw(3), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+wait for 20ns;
+sw(0) <= '1';
+wait for 20ns;
+btn(0) <= '1';
+write(TextLine,"Forced to State F*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(2) <= '1';
+write(TextLine,"Input fault sw(2), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+wait for 20ns;
+sw(0) <= '1';
+wait for 20ns;
+btn(0) <= '1';
+write(TextLine,"Forced to State F*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(1) <= '1';
+write(TextLine,"Input fault sw(1), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+wait for 20ns;
+sw(0) <= '1';
+wait for 20ns;
+btn(0) <= '1';
+write(TextLine,"Forced to State F*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+sw(0) <= '1';
+write(TextLine,"Input fault sw(0), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+wait for 20ns;
+sw(0) <= '1';
+wait for 20ns;
+btn(0) <= '1';
+write(TextLine,"Forced to State F*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+btn(2) <= '1';
+write(TextLine,"Input fault btn(2), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+wait for 20ns;
+sw(0) <= '1';
+wait for 20ns;
+btn(0) <= '1';
+write(TextLine,"Forced to State F*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+btn(0) <= '1';
+write(TextLine,"Input fault btn(0), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+write(TextLine,"Test fraudulent state D*I0I transitions");
+writeline(output,TextLine);
+sw(7) <= '0';--0
+sw(6) <= '0';--1
+sw(5) <= '0';--2
+sw(4) <= '0';--3
+sw(3) <= '0';--4
+sw(2) <= '0';--5
+sw(1) <= '0';--6
+sw(0) <= '0';--7
+btn(2) <= '0';--8
+btn(0) <= '0';--9
+btn(3) <= '0';--R
+btn(1) <= '0';--Dr
+wait for 20ns;
+sw(5) <= '1';
+wait for 20ns;
+sw(3) <= '1';
+wait for 20ns;
+sw(1) <= '1';
+wait for 20ns;
+sw(0) <= '1';
+wait for 20ns;
+btn(0) <= '1';
+write(TextLine,"Forced to State F*I0I, LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+btn(3) <= '1';
+write(TextLine,"Input fault btn(3), LEDs = ");
+write(TextLine,Led(0));
+write(TextLine,Led(1));
+write(TextLine,Led(2));
+write(TextLine," Z = ");
+write(TextLine,Led(4));
+writeline(output,TextLine);
+wait for 20ns;
+
+>>> 

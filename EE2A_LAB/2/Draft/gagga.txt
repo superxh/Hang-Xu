@@ -1,0 +1,52 @@
+#include<18F27K40.h>
+#include<stdio.h>
+
+
+void s0()
+{
+#use delay(internal=4MHZ,clock_out)
+   setup_adc_ports(NO_ANALOGS);
+   while(TRUE)
+   {
+   output_high(PIN_B0);
+   delay_ms(500);
+   output_low(PIN_B0);
+   delay_ms(500);
+   }
+}
+
+void s1()
+{
+#use delay(internal=8MHZ,clock_out)
+   setup_adc_ports(NO_ANALOGS);
+
+//   output_high(PIN_B1);
+//   delay_ms(500);
+//   output_low(PIN_B1);
+//   delay_ms(500);
+
+
+}
+
+
+void s2()
+{
+#use delay(internal=16MHZ,clock_out)
+   setup_adc_ports(NO_ANALOGS);
+
+//   output_high(PIN_B2);
+//   delay_ms(500);
+//   output_low(PIN_B2);
+//   delay_ms(500);
+
+
+}
+
+void main()
+{
+//setup_adc_ports(sAN11);
+s0();
+s1();
+s2();
+
+}

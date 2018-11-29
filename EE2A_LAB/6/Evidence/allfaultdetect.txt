@@ -1,0 +1,197 @@
+Forced to State A*I0I, LEDs = 000 Z = 0
+Input fault sw(7), LEDs = 000 Z = 0
+Test fraudulent state A*I0I transitions
+Forced to State A*I0I, LEDs = 000 Z = 0
+Input fault sw(6), LEDs = 000 Z = 0
+Test fraudulent state A*I0I transitions
+Forced to State A*I0I, LEDs = 000 Z = 0
+Input fault sw(4), LEDs = 000 Z = 0
+Test fraudulent state A*I0I transitions
+Forced to State A*I0I, LEDs = 000 Z = 0
+Input fault sw(3), LEDs = 000 Z = 0
+Test fraudulent state A*I0I transitions
+Forced to State A*I0I, LEDs = 000 Z = 0
+Input fault sw(2), LEDs = 000 Z = 0
+Test fraudulent state A*I0I transitions
+Forced to State A*I0I, LEDs = 000 Z = 0
+Input fault sw(1), LEDs = 000 Z = 0
+Test fraudulent state A*I0I transitions
+Forced to State A*I0I, LEDs = 000 Z = 0
+Input fault sw(0), LEDs = 000 Z = 0
+Test fraudulent state A*I0I transitions
+Forced to State A*I0I, LEDs = 000 Z = 0
+Input fault btn(2), LEDs = 000 Z = 0
+Test fraudulent state A*I0I transitions
+Forced to State A*I0I, LEDs = 000 Z = 0
+Input fault btn(0), LEDs = 000 Z = 0
+Test fraudulent state A*I0I transitions
+Forced to State A*I0I, LEDs = 000 Z = 0
+Input fault btn(3), LEDs = 000 Z = 0
+Test fraudulent state A*I0I transitions
+Forced to State A*I0I, LEDs = 000 Z = 0
+Input fault btn(1), LEDs = 000 Z = 0
+Test fraudulent state B*I0I transitions
+Forced to State B*I0I, LEDs = 000 Z = 0
+Input fault sw(7), LEDs = 000 Z = 0
+Test fraudulent state B*I0I transitions
+Forced to State B*I0I, LEDs = 000 Z = 0
+Input fault sw(6), LEDs = 000 Z = 0
+Test fraudulent state B*I0I transitions
+Forced to State B*I0I, LEDs = 000 Z = 0
+Input fault sw(5), LEDs = 000 Z = 0
+Test fraudulent state B*I0I transitions
+Forced to State B*I0I, LEDs = 000 Z = 0
+Input fault sw(4), LEDs = 000 Z = 0
+Test fraudulent state B*I0I transitions
+Forced to State B*I0I, LEDs = 000 Z = 0
+Input fault sw(2), LEDs = 000 Z = 0
+Test fraudulent state B*I0I transitions
+Forced to State B*I0I, LEDs = 000 Z = 0
+Input fault sw(1), LEDs = 000 Z = 0
+Test fraudulent state B*I0I transitions
+Forced to State B*I0I, LEDs = 000 Z = 0
+Input fault sw(0), LEDs = 000 Z = 0
+Test fraudulent state B*I0I transitions
+Forced to State B*I0I, LEDs = 000 Z = 0
+Input fault btn(2), LEDs = 000 Z = 0
+Test fraudulent state B*I0I transitions
+Forced to State B*I0I, LEDs = 000 Z = 0
+Input fault btn(0), LEDs = 000 Z = 0
+Test fraudulent state B*I0I transitions
+Forced to State B*I0I, LEDs = 000 Z = 0
+Input fault btn(3), LEDs = 000 Z = 0
+Test fraudulent state B*I0I transitions
+Forced to State B*I0I, LEDs = 000 Z = 0
+Input fault btn(1), LEDs = 000 Z = 0
+Test fraudulent state C*I0I transitions
+Forced to State C*I0I, LEDs = 000 Z = 0
+Input fault sw(7), LEDs = 000 Z = 0
+Test fraudulent state C*I0I transitions
+Forced to State C*I0I, LEDs = 000 Z = 0
+Input fault sw(6), LEDs = 000 Z = 0
+Test fraudulent state C*I0I transitions
+Forced to State C*I0I, LEDs = 000 Z = 0
+Input fault sw(5), LEDs = 000 Z = 0
+Test fraudulent state C*I0I transitions
+Forced to State C*I0I, LEDs = 000 Z = 0
+Input fault sw(4), LEDs = 000 Z = 0
+Test fraudulent state C*I0I transitions
+Forced to State C*I0I, LEDs = 000 Z = 0
+Input fault sw(3), LEDs = 000 Z = 0
+Test fraudulent state C*I0I transitions
+Forced to State C*I0I, LEDs = 000 Z = 0
+Input fault sw(2), LEDs = 000 Z = 0
+Test fraudulent state C*I0I transitions
+Forced to State C*I0I, LEDs = 000 Z = 0
+Input fault sw(0), LEDs = 000 Z = 0
+Test fraudulent state C*I0I transitions
+Forced to State C*I0I, LEDs = 000 Z = 0
+Input fault btn(2), LEDs = 000 Z = 0
+Test fraudulent state C*I0I transitions
+Forced to State C*I0I, LEDs = 000 Z = 0
+Input fault btn(0), LEDs = 000 Z = 0
+Test fraudulent state C*I0I transitions
+Forced to State C*I0I, LEDs = 000 Z = 0
+Input fault btn(3), LEDs = 000 Z = 0
+Test fraudulent state C*I0I transitions
+Forced to State C*I0I, LEDs = 000 Z = 0
+Input fault btn(1), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State D*I0I, LEDs = 000 Z = 0
+Input fault sw(7), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State D*I0I, LEDs = 000 Z = 0
+Input fault sw(6), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State D*I0I, LEDs = 000 Z = 0
+Input fault sw(5), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State D*I0I, LEDs = 000 Z = 0
+Input fault sw(4), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State D*I0I, LEDs = 000 Z = 0
+Input fault sw(3), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State D*I0I, LEDs = 000 Z = 0
+Input fault sw(2), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State D*I0I, LEDs = 000 Z = 0
+Input fault sw(1), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State D*I0I, LEDs = 000 Z = 0
+Input fault btn(2), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State D*I0I, LEDs = 000 Z = 0
+Input fault btn(0), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State D*I0I, LEDs = 000 Z = 0
+Input fault btn(3), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State D*I0I, LEDs = 000 Z = 0
+Input fault btn(1), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State E*I0I, LEDs = 000 Z = 0
+Input fault sw(7), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State E*I0I, LEDs = 000 Z = 0
+Input fault sw(6), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State E*I0I, LEDs = 000 Z = 0
+Input fault sw(5), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State E*I0I, LEDs = 000 Z = 0
+Input fault sw(4), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State E*I0I, LEDs = 000 Z = 0
+Input fault sw(3), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State E*I0I, LEDs = 000 Z = 0
+Input fault sw(2), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State E*I0I, LEDs = 000 Z = 0
+Input fault sw(1), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State E*I0I, LEDs = 000 Z = 0
+Input fault sw(0), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State E*I0I, LEDs = 000 Z = 0
+Input fault btn(2), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State E*I0I, LEDs = 000 Z = 0
+Input fault btn(3), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State E*I0I, LEDs = 000 Z = 0
+Input fault btn(1), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State F*I0I, LEDs = 000 Z = 0
+Input fault sw(7), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State F*I0I, LEDs = 000 Z = 0
+Input fault sw(6), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State F*I0I, LEDs = 000 Z = 0
+Input fault sw(5), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State F*I0I, LEDs = 000 Z = 0
+Input fault sw(4), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State F*I0I, LEDs = 000 Z = 0
+Input fault sw(3), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State F*I0I, LEDs = 000 Z = 0
+Input fault sw(2), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State F*I0I, LEDs = 000 Z = 0
+Input fault sw(1), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State F*I0I, LEDs = 000 Z = 0
+Input fault sw(0), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State F*I0I, LEDs = 000 Z = 0
+Input fault btn(2), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State F*I0I, LEDs = 000 Z = 0
+Input fault btn(0), LEDs = 000 Z = 0
+Test fraudulent state D*I0I transitions
+Forced to State F*I0I, LEDs = 000 Z = 0
+Input fault btn(3), LEDs = 000 Z = 0
