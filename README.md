@@ -11,5 +11,5 @@
 
 - **Please visit webpage**
 
-  [superxh.github.io]: https://superxh.github.io/ "superxh.github.io"
+  https://superxh.github.io/
 
